@@ -10,3 +10,4 @@ data = {
 df = pd.DataFrame(data)
 media = df[df['idade'] > 30]['salario'].mean()
 print("Média salarial para idade > 30:", media)
+#
